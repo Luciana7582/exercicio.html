@@ -1,0 +1,40 @@
+body{
+    color: blue;
+}
+h1{
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: dotted dashed solid double;
+}
+h2{
+    color: brown;
+    font-size: 30px;
+    background-color: aqua;
+    border-style: double;
+}
+p{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-style: dotted;
+    
+}
+
+    h3{
+        font-size: 50px;
+        font-style: italic;
+        text-align:center;  
+    }
+    h4{
+       font-size: 30px;
+       font-family: Arial, Helvetica, sans-serif;
+       font-style: italic;
+       text-align:center;
+       border-style:solid;
+    }
+    button{
+        font-size: 40px;
+        font-style: normal;
+        font-family: Arial, Helvetica, sans-serif;
+        color: blueviolet;
+        background-color: cornflowerblue;
+    }
