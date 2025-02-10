@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1> Incluir Um (1) arquivo</h1>
+<form name="f_cadastro" action="" method="get">
+    <label>Selecione um arquivo</label>
+    <input type="file" name="f_arquivo"><br>
+    <input type="submit" name="f_enviar"value="Enviar">
+
+    <h1> Incluir mais de um (1)arquivo</h1>
+    <form name="f_cadastro" action="" method="get">
+        <label>Selecione um arquivo</label>
+        <input type="file" name="f_arquivo" multiple><br>
+        <input type="submit" name="f_enviar"value="Enviar">
+        <br>
+
+        <h1> Incluir mais de um (1)arquivo e escolher tipo de arquivo</h1>
+        <form name="f_cadastro" action="" method="get" enctype="multipart/form-data">
+            <label>Selecione um arquivo</label>
+            <input type="file" name="f_arquivo" accept=".jpg,.gif,.png"><br>
+            <input type="submit" name="f_enviar"value="Enviar">
+    </form>
+</form>    
+</body>
+</html>
